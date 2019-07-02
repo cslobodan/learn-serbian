@@ -18,13 +18,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Admob App ID
-     test: ca-app-pub-3940256099942544~3347511713
-     my: ca-app-pub-9210810404570470~7759341539 -->
-    <string name="app_id">ca-app-pub-9210810404570470~7759341539</string>
+     test: ca-app-pub-3940256099942544~3347511713 -->
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
 
     <!-- Admob banner
-     test: ca-app-pub-3940256099942544/6300978111
-     my: ca-app-pub-9210810404570470/6535983101 -->
-    <string name="app_banner">ca-app-pub-9210810404570470/6535983101</string>
+     test: ca-app-pub-3940256099942544/6300978111 -->
+    <string name="app_banner">ca-app-pub-3940256099942544/6300978111</string>
 
 </resources>
