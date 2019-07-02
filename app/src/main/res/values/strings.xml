@@ -1,0 +1,30 @@
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Learn Serbian</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_phrases">Phrases</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Admob App ID
+     test: ca-app-pub-3940256099942544~3347511713
+     my: ca-app-pub-9210810404570470~7759341539 -->
+    <string name="app_id">ca-app-pub-9210810404570470~7759341539</string>
+
+    <!-- Admob banner
+     test: ca-app-pub-3940256099942544/6300978111
+     my: ca-app-pub-9210810404570470/6535983101 -->
+    <string name="app_banner">ca-app-pub-9210810404570470/6535983101</string>
+
+</resources>
