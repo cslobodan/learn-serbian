@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary color of the app (shown in the app bar) -->
-    <color name="primary_color">#f44336</color>
-
-    <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="primary_dark_color">#d32f2f</color>
-
-    <!-- Background color for app -->
-    <color name="tan_background">@android:color/white</color>
-
-    <!-- Background color for the numbers category -->
-    <color name="category_numbers">#FD8E09</color>
-
-    <!-- Background color for the family members category -->
-    <color name="category_family">#379237</color>
-
-    <!-- Background color for the colors category -->
-    <color name="category_colors">#8800A0</color>
-
-    <!-- Background color for the phrases category -->
-    <color name="category_phrases">#0091ea</color>
+    <color name="blue_200">#8cadff</color>
+    <color name="blue_500">#477bff</color>
+    <color name="blue_700">#0048ff</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 </resources>

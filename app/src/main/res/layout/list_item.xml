@@ -4,50 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:minHeight="@dimen/list_item_height">
+    android:minHeight="@dimen/list_item_height"
+    tools:context=".ui.fragments.NumbersFragment">
 
     <ImageView
         android:id="@+id/image"
         android:layout_width="88dp"
         android:layout_height="80dp"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true"
+        android:contentDescription="TODO" />
 
     <LinearLayout
         android:id="@+id/text_container"
-        android:layout_toRightOf="@id/image"
+        android:layout_toEndOf="@id/image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/list_item_height"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
-    <TextView
-        android:id="@+id/serbian_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="bottom"
-        tools:text="jedan"
-        android:textSize="18dp"
-        android:textColor="@android:color/white"
-        android:textStyle="bold"/>
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
 
-    <TextView
-        android:id="@+id/english_text_view"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:gravity="top"
-        tools:text="one"
-        android:textSize="18dp"
-        android:textColor="@android:color/white"/>
+        <TextView
+            android:id="@+id/serbian_text_view"
+            android:layout_width="258dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="jedan" />
+
+        <TextView
+            android:id="@+id/english_text_view"
+            android:layout_width="256dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textSize="18sp"
+            tools:text="one" />
     </LinearLayout>
 
     <ImageView
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_alignParentRight="true"
-        android:src="@drawable/speaker3"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/speaker_24"
         android:layout_centerVertical="true"
-        android:paddingRight="24dp"
-        />
+        android:paddingEnd="24dp"
+        android:contentDescription="TODO" />
 
 </RelativeLayout>

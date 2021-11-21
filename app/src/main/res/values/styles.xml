@@ -1,19 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-<!-- Base application theme. -->
-<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-    <item name="colorPrimary">#f44336</item>
-    <item name="colorPrimaryDark">#d32f2f</item>
-</style>
-
-<!-- Style for a category of vocabulary words -->
-<style name="CategoryStyle">
-    <item name="android:layout_width">match_parent</item>
-    <item name="android:layout_height">@dimen/list_item_height</item>
-    <item name="android:gravity">center_vertical</item>
-    <item name="android:padding">16dp</item>
-    <item name="android:textColor">#ffffff</item>
-    <item name="android:textStyle">bold</item>
-    <item name="android:textAppearance">?android:textAppearanceMedium</item>
-</style>
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+    </style>
 </resources>
