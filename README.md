@@ -18,4 +18,4 @@ This sample uses the Gradle build system. To build this project, use the
 
 Screenshoots
 ---------------
-<img src="screenshots/s1.jpg" width="24%"> <img src="screenshots/s2.jpg" width="24%"> <img src="screenshots/s3.jpg" width="24%"> <img src="screenshots/s4.jpg" width="24%"> 
+<img src="screenshots/sc1.jpg" width="24%"> <img src="screenshots/sc2.jpg" width="24%"> <img src="screenshots/sc3.jpg" width="24%"> <img src="screenshots/sc4.jpg" width="24%"> 
